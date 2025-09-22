@@ -1,0 +1,65 @@
+@import url("reset.css");
+
+:root {
+    font-size: 125%;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+label, input {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.content {
+    width: 1200px;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color:rgba(169, 169, 169, 0.397);
+}
+
+.page-title {
+    text-align: center;
+}
+
+.student-options {
+    display: flex;
+    flex-wrap: wrap;
+
+    .horizontal {
+        display: flex;
+        width: 100%;
+    }
+
+    .vertical {
+        flex-grow: 1;
+    }
+
+    #classes {
+        flex-grow: 1;
+    }
+}
+
+#showStudents {
+    display: block;
+    width: 215px;
+    height: 75px;
+    margin: 0 auto;
+    text-wrap: nowrap;
+}
+
+#printedStudents {
+    display: flex;
+    width: 1110px;
+    margin: 15px auto;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+#studentInfo {
+    background-color: rgba(0, 0, 0, 0.133);
+    padding: 10px;
+    border-radius: 15px;
+}
